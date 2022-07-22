@@ -62,7 +62,7 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged: Got internal server error on form submit. Checked my AR logs found a `NameError` error in the controller and edited the typo
+  - How I debugged: Got internal server error on form submit. Checked my rails logs found a `NameError` error in the controller and edited the typo
 
 - Update the number of likes for a toy
 
@@ -70,4 +70,4 @@ developing your own process.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Got a 404 error. Checked rails logs that indicated a routing error. updated my routes to include destroy action
