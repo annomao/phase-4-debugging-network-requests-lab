@@ -62,7 +62,7 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Got internal server error on form submit. Checked my AR logs found a `NameError` error in the controller and edited the typo
 
 - Update the number of likes for a toy
 
