@@ -66,7 +66,7 @@ developing your own process.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Syntax error, fixed update method to return a json response by adding the render method
 
 - Donate a toy to Goodwill (and delete it from our database)
 
